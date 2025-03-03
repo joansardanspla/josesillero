@@ -1,10 +1,33 @@
+Here is the improved version of the `index.html` file ready to be committed:
+
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>José Sillero - Espectáculo de Rumba Flamenca</title>
+    <meta name="description" content="Disfruta de la mejor rumba flamenca y catalana con José Sillero. Ideal para fiestas, bodas y eventos especiales.">
+    <meta name="keywords" content="José Sillero, Rumba Flamenca, Espectáculo, Bodas, Eventos">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external stylesheet -->
+</head>
+<body>
+    <header>
+        <h1>José Sillero - Espectáculo de Rumba Flamenca y Catalana</h1>
+    </header>
+    <main class="container">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.VYVpnEsNdGNAjfflIXphLgHaEK&pid=Api" alt="José Sillero actuando">
+        <p>Disfruta de la mejor rumba flamenca y catalana con la inconfundible voz de José Sillero.</p>
+        <p>Opcionalmente, acompáñate del talento de <strong>Juanito el Sardina</strong> al violín, añadiendo una magia especial a cada actuación.</p>
+        <img class="violinist" src="vlin.jpeg" alt="Violinista Flamenco Juanito el Sardina">
+        <h2>¡Ideal para fiestas, bodas y eventos especiales!</h2>
+        <p>Haz de tu celebración un momento inolvidable con el ritmo y la pasión del mejor espectáculo de rumba flamenca y catalana. Perfecto para bodas, fiestas privadas, eventos corporativos y más.</p>
+        <a class="btn" href="https://www.youtube.com/channel/UCNCJkwvhPCeizMIkSks9sPg/videos" target="_blank">Ver en YouTube</a>
+    </main>
+    <footer>
+        <p>&copy; 2025 José Sillero</p>
+    </footer>
     <style>
         body {
             font-family: 'Lobster', cursive;
@@ -13,6 +36,8 @@
             background-size: 400% 400%;
             animation: backgroundAnimation 10s ease infinite;
             color: white;
+            margin: 0;
+            padding: 0;
         }
         @keyframes backgroundAnimation {
             0% { background-position: 0% 50%; }
@@ -45,18 +70,14 @@
             border-radius: 5px;
             margin-top: 20px;
         }
+        @media (max-width: 600px) {
+            .violinist {
+                width: 20%;
+            }
+        }
     </style>
-</head>
-<body>
-    <div class="container">
-        <h1>José Sillero - Espectáculo de Rumba Flamenca y Catalana</h1>
-        <img src="https://tse3.mm.bing.net/th?id=OIP.VYVpnEsNdGNAjfflIXphLgHaEK&pid=Api" alt="José Sillero">
-        <p>Disfruta de la mejor rumba flamenca y catalana con la inconfundible voz de José Sillero.</p>
-        <p>Opcionalmente, acompáñate del talento de <strong>Juanito el Sardina</strong> al violín, añadiendo una magia especial a cada actuación.</p>
-        <img class="violinist" src="vlin.jpeg" alt="Violinista Flamenco">
-        <h2>¡Ideal para fiestas, bodas y eventos especiales!</h2>
-        <p>Haz de tu celebración un momento inolvidable con el ritmo y la pasión del mejor espectáculo de rumba flamenca y catalana. Perfecto para bodas, fiestas privadas, eventos corporativos y cualquier ocasión especial.</p>
-        <a class="btn" href="https://www.youtube.com/channel/UCNCJkwvhPCeizMIkSks9sPg/videos" target="_blank">Ver en YouTube</a>
-    </div>
 </body>
 </html>
+```
+
+Please create a new commit with these changes to update the `index.html` file in your repository.
